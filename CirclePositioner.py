@@ -16,4 +16,4 @@ def circlePositioner(radius, numNodes, startAngle = 90, **kwargs):
    return strToReturn
 
 if __name__ == "__main__":
-   print(circlePositioner(8, 14))
+   print(circlePositioner(5, 7))
