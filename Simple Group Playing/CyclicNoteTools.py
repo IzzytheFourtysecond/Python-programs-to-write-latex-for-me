@@ -202,7 +202,7 @@ class Permutation:
 		"""
 		return (sum([len(branch) - 1 for branch in self.cycleTree], 0) % 2) == 0
 	
-	
+
 	def __eq__(self, other):
 		"""
 		Returns True if two permutations represent the same function.
