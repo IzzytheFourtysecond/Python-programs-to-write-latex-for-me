@@ -165,6 +165,7 @@ class Permutation:
 		newCycleTree = [[branch[0 - i] for i in range(len(branch))] for branch in perm.cycleTree]
 		return Permutation("", perm.order, (True, newCycleTree))
 	
+
 	def __pow__(self, other):
 		"""
 		This implements raising a permutation to an integer power...
@@ -192,6 +193,7 @@ class Permutation:
 		
 		return result
 	
+
 	def __bool__(self):
 		"""
 		This represents the parity of a permutation. 
@@ -199,6 +201,7 @@ class Permutation:
 		False ---> Odd
 		"""
 		return (sum([len(branch) - 1 for branch in self.cycleTree], 0) % 2) == 0
+	
 	
 	def __eq__(self, other):
 		"""
