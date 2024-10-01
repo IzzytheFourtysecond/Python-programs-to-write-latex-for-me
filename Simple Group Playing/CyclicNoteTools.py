@@ -86,7 +86,7 @@ class Permutation:
 
 
 	# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	# Arithmetic and Displaying Functions
+	# Arithmetic and Displaying Methods
 
 	def __repr__(self):
 		"""
